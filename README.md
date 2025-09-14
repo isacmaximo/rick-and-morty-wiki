@@ -1,6 +1,6 @@
 # rick_and_morty_wiki
 
-Rick And Morty Wiki: Um app feito em Flutter que traz caracteríscias sobre os personagens da série.
+Rick And Morty Wiki: Um app feito em Flutter que traz características sobre os personagens da série.
 
 Versão do Flutter: 3.35.3 (versão estável)
 
@@ -16,12 +16,12 @@ Dio - Biblioteca HTTP utilizada para consumir a API.
 => Execução do projeto
 Na raiz do projeto, siga os seguintes comandos:
 
-Baixar as dependências:
+1- Baixar as dependências:
 flutter pub get
 
-Gerar os arquivos via build_runner:
+2 - Gerar os arquivos via build_runner:
 flutter packages pub run build_runner build
 
-Rodar o app:
+3 - Rodar o app:
 flutter run
 
