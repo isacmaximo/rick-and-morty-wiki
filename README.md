@@ -13,8 +13,7 @@ Flutter Modular - Usado para injeção de dependências e gerenciamento de rotas
 Mobx - Geranciador de estado reativo.
 Dio - Biblioteca HTTP utilizada para consumir a API.
 
-=> Execução do projeto
-Na raiz do projeto, siga os seguintes comandos:
+=> Execução do projeto - Na raiz do projeto, siga os seguintes comandos:
 
 1- Baixar as dependências:
 flutter pub get
