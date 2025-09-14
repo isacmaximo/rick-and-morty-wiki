@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rick_and_morty_wiki/utils/contants/colors.dart';
+import 'package:rick_and_morty_wiki/utils/constants/colors.dart';
 
 abstract class AppTextStyles {
   static const TextStyle biggestTitle = TextStyle(

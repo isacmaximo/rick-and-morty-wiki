@@ -5,7 +5,7 @@ import 'package:flutter/widgets.dart';
 import 'package:rick_and_morty_wiki/data/models/character.dart';
 import 'package:rick_and_morty_wiki/data/models/pageable_charachter.dart';
 import 'package:rick_and_morty_wiki/data/network/http_client.dart';
-import 'package:rick_and_morty_wiki/utils/contants/api.dart';
+import 'package:rick_and_morty_wiki/utils/constants/api.dart';
 
 class CharacterRepository {
   final HttpClient _client;

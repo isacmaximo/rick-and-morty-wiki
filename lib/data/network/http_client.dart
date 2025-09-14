@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:rick_and_morty_wiki/utils/contants/durations.dart';
+import 'package:rick_and_morty_wiki/utils/constants/durations.dart';
 
 class HttpClient {
   late Dio _dio;

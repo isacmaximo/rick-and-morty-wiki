@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:rick_and_morty_wiki/core/themes/text_styles.dart';
-import 'package:rick_and_morty_wiki/utils/contants/colors.dart';
+import 'package:rick_and_morty_wiki/utils/constants/colors.dart';
 
 enum StatusEnum { alive, dead, unknown }
 

@@ -6,7 +6,7 @@ import 'package:rick_and_morty_wiki/core/themes/text_styles.dart';
 import 'package:rick_and_morty_wiki/data/models/character.dart';
 import 'package:rick_and_morty_wiki/modules/home/widgets/image_card.dart';
 import 'package:rick_and_morty_wiki/modules/home/widgets/status_flag.dart';
-import 'package:rick_and_morty_wiki/utils/contants/sizes.dart';
+import 'package:rick_and_morty_wiki/utils/constants/sizes.dart';
 
 class CharacterCard extends StatelessWidget {
   final Character character;

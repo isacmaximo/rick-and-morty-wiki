@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:rick_and_morty_wiki/core/shared/card/default_card.dart';
 import 'package:rick_and_morty_wiki/core/themes/text_styles.dart';
-import 'package:rick_and_morty_wiki/utils/contants/sizes.dart';
+import 'package:rick_and_morty_wiki/utils/constants/sizes.dart';
 
 class PageableBottom extends StatelessWidget {
   final int currentPage;
