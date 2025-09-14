@@ -10,6 +10,5 @@ class BasePage extends StatelessWidget {
     return KeyboardDismissOnTap(
       child: SafeArea(child: Scaffold(body: child)),
     );
-    ;
   }
 }
