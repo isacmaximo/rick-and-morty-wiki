@@ -55,7 +55,7 @@ abstract class HomeControllerBase with Store {
       _loadingController.startLoading();
       characters = await _getCharactersUseCase.execute(
         page: currentPage,
-        name: name,
+        name: name ?? searchController.text,
       );
       _loadingController.stopLoading();
     } on FlutterError catch (e) {
