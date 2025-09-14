@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rick_and_morty_wiki/utils/contants/colors.dart';
+import 'package:rick_and_morty_wiki/utils/constants/colors.dart';
 
 class LoadingWrapper extends StatelessWidget {
   final Widget? child;

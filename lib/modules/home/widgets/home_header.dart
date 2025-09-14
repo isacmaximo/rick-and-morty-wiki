@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:rick_and_morty_wiki/core/themes/text_styles.dart';
-import 'package:rick_and_morty_wiki/utils/contants/sizes.dart';
+import 'package:rick_and_morty_wiki/utils/constants/sizes.dart';
 
 class HomeHeader extends StatelessWidget {
   const HomeHeader({super.key});
