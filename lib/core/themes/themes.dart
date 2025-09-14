@@ -7,6 +7,12 @@ abstract class Themes {
       primaryColor: primaryColor,
       scaffoldBackgroundColor: backgroundColor,
       brightness: Brightness.light,
+      fontFamily: 'Inter',
+      colorScheme: ColorScheme.light(
+        primary: primaryColor,
+        secondary: secondaryColor,
+        surface: backgroundColor,
+      ),
     );
   }
 }

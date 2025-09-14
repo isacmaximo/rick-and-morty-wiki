@@ -27,6 +27,54 @@ mixin _$HomeController on HomeControllerBase, Store {
     });
   }
 
+  late final _$currentPageAtom = Atom(
+    name: 'HomeControllerBase.currentPage',
+    context: context,
+  );
+
+  @override
+  int get currentPage {
+    _$currentPageAtom.reportRead();
+    return super.currentPage;
+  }
+
+  @override
+  set currentPage(int value) {
+    _$currentPageAtom.reportWrite(value, super.currentPage, () {
+      super.currentPage = value;
+    });
+  }
+
+  late final _$onSearchChangedAsyncAction = AsyncAction(
+    'HomeControllerBase.onSearchChanged',
+    context: context,
+  );
+
+  @override
+  Future<void> onSearchChanged(String value) {
+    return _$onSearchChangedAsyncAction.run(() => super.onSearchChanged(value));
+  }
+
+  late final _$nextPageAsyncAction = AsyncAction(
+    'HomeControllerBase.nextPage',
+    context: context,
+  );
+
+  @override
+  Future<void> nextPage() {
+    return _$nextPageAsyncAction.run(() => super.nextPage());
+  }
+
+  late final _$previousPageAsyncAction = AsyncAction(
+    'HomeControllerBase.previousPage',
+    context: context,
+  );
+
+  @override
+  Future<void> previousPage() {
+    return _$previousPageAsyncAction.run(() => super.previousPage());
+  }
+
   late final _$getCharactersAsyncAction = AsyncAction(
     'HomeControllerBase.getCharacters',
     context: context,
@@ -42,7 +90,8 @@ mixin _$HomeController on HomeControllerBase, Store {
   @override
   String toString() {
     return '''
-characters: ${characters}
+characters: ${characters},
+currentPage: ${currentPage}
     ''';
   }
 }

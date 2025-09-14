@@ -21,7 +21,7 @@ class CharacterRepository {
       );
       return PageableCharachter.fromMap(response.data);
     } on DioException catch (e) {
-      String message = 'Erro ao buscar personagens!';
+      String message = 'Error fetching characters!';
       log(e.message ?? message);
       throw FlutterError(message);
     }
@@ -32,7 +32,7 @@ class CharacterRepository {
       Response response = await _client.get('$_url/$id');
       return Character.fromMap(response.data);
     } on DioException catch (e) {
-      String message = 'Erro ao buscar personagem!';
+      String message = 'Character not found!';
       log(e.message ?? message);
       throw FlutterError(message);
     }
